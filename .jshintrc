@@ -1,0 +1,9 @@
+{
+  "globalstrict": true,
+  "strict": "global",
+  "esnext": true,
+  "browser": true,
+  "globals": {
+    "chrome": false
+  }
+}

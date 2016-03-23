@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Syncthing Status Indicator</title>
+
+<style>
+  body { overflow: hidden; line-height: 1.4em; }
+  label { display: block; margin-bottom: 0.2em; }
+  .description { margin-top: 0.2em; }
+  .actions { text-align: right; }
+  .message { margin-right: 1em; }
+</style>
+
+<label for="host">Host URL:</label>
+<input type="text" id="host" autofocus placeholder="Ex. https://1.2.3.4:8384/">
+<div class="description">Specify the root URL of the remote host</div>
+
+<div class="actions">
+  <span class="message" id="message"></span>
+  <button id="save">Save</button>
+</div>
+
+<script src="options.js"></script>
